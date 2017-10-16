@@ -1,7 +1,9 @@
 ﻿<?php
+use PowerAuto\model\IndexModel;
+
+var_dump(__NAMESPACE__);
+exit;
 header("Content-type: text/html; charset=utf-8");
-
-
 
 error_reporting(E_ALL);
 //User name off the mail box
