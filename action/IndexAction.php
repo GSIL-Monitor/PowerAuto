@@ -1,10 +1,10 @@
-﻿<?php
-use PowerAuto\model\IndexModel;
+<?php
+namespace powerauto\model;
 
 var_dump(__NAMESPACE__);
+//exit;
+//header("Content-type: text/html; charset=utf-8");
 exit;
-header("Content-type: text/html; charset=utf-8");
-
 error_reporting(E_ALL);
 //User name off the mail box
 $username = 's125hckj@ooopic.com';
@@ -16,7 +16,7 @@ $email_address = 's125hckj@ooopic.com';
 $resmail_server = '{pop.exmail.qq.com:143/imap}INBOX';
 $mail_server = 'pop.exmail.qq.com';
 //if this server is imap or pop default is pop
-$server_type = 'imap'; 
+$server_type = 'imap';
 //Server port for pop or imap Default is 110 for pop and 143 for imap
 $port = 143;
 $st= microtime(true);
