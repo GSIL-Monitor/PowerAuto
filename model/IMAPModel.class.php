@@ -22,7 +22,7 @@ class IMAPModel {
         $this->email    = $email_address;
     }
     public function connect() {
-        $this->marubox = @imap_open($this->server,$this->username,$this->password,0);
+        $this->marubox = imap_open($this->server,$this->username,$this->password,0);
         if(!$this->marubox) {
             echo "Error: Connecting to mail server<br/>";
             echo $this->server;
