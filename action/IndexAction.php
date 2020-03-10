@@ -6,9 +6,9 @@ include './model/DBModel.class.php';
 error_reporting(E_ALL);
 
 class IndexAciton{
-    public $username = 's125hckj@ooopic.com';
-    public $password = 'Hdy123456';
-    public $email_address = 's125hckj@ooopic.com';
+    public $username = '';
+    public $password = '';
+    public $email_address = '';
     public $resmail_server = '{pop.exmail.qq.com:143/imap}INBOX';
     public $mail_server = 'pop.exmail.qq.com';
     public $server_type = 'imap';
